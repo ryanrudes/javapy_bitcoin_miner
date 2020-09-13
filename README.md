@@ -3,7 +3,7 @@ A fast CPU cryptocurrency miner which employs Python as a web client to fetch tr
 Python and Java scripts communicate and transfer data via a Python server, which is attended to by a Java client.
 All 3 version are having one issue; they are all handling incoming information from the mining pool improperly, leading the to mine block headers with improper data. This is because I was previously unaware of the nonse reversing and reording that occurs before being broadcasted to the pool's miners. This will be fixed soon.
 
-Note that this is unlikely to make you any money, for although this is considerably fast for a CPU, it is still a few thousand - 1 million times slower than the state-of-the-art ASIC mining devices. v3 runs at approx. 1.6 MH/s on an iMac Late 2012 with a 2.9 GHz Quad-Core Intel Core i5 processor, and I also tested in on a mac laptop from 2017, on which it runs at approx. 4.5 MH/s. To put this into perspective, the entire mining network acheives **many** more orders of magnitude of hashes per second.
+Note that this is unlikely to make you any money, for although this is considerably fast for a CPU, it is still a few thousand - 1 million times slower than the state-of-the-art ASIC mining devices. v3 runs at approx. 1.6 MH/s on an iMac Late 2012 with a 2.9 GHz Quad-Core Intel Core i5 processor, and I also tested in on a Mac laptop from 2017, on which it runs at approx. 4.5 MH/s. To put this into perspective, the entire mining network acheives **many** more orders of magnitude of hashes per second.
 
 v3 does not ask for user input at the moment, so if you want to run the most recent version, you must manually enter `mining_api.py` and change the variable labeled `address` to your own public wallet address.
 

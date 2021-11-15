@@ -1,4 +1,4 @@
-pip==20.2.2
+pip==21.1
 joblib==0.14.1
 http-client==0.1.22
 threaded==4.0.8
